@@ -1,0 +1,28 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CesarKazu/node-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CesarKazu/node-api/issues"
+  },
+  "homepage": "https://github.com/CesarKazu/node-api#readme",
+  "dependencies": {
+    "bull": "^3.18.1"
+  },
+  "devDependencies": {
+    "@types/bull": "^3.14.4",
+    "nodemon": "^2.0.2"
+  }
+}
